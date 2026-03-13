@@ -64,11 +64,11 @@ body * {
 }
 
 /*switch*/
-#switch{
-position: relative;
-width: 64px;
+#switch {
+  position: relative;
+  width: 64px;
 
-margin: 4px auto;
+  margin: 4px auto;
 }
 
 #switch button {
@@ -81,14 +81,13 @@ margin: 4px auto;
   z-index: 1;
   left: 0;
   top: 50%;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
 }
 
-.light #switch button{
-right: 0;
-left: initial;
+.light #switch button {
+  right: 0;
+  left: initial;
 }
-
 
 #switch span {
   display: block;
